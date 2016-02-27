@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="9" width="1056" measuredWidth="1056" measuredHeight="872" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="20"/>
+      <widgetChanges xsi:type="o:Delete" ref="16"/>
+      <widgets ref="1" width="1056"/>
+      <widgets ref="2" width="1056"/>
+      <widgets ref="3" width="193"/>
+      <widgets ref="4" x="-223"/>
+      <widgets ref="5" width="193"/>
+      <widgets ref="7" x="-228" width="136" text="概览&#xA;消息&#xA;订单管理&#xA;    销售订单&#xA;    采购订单&#xA;    订单行*&#xA;产品询价&#xA;    产品询价&#xA;产品资料库&#xA;    *产品库*&#xA;    品牌库&#xA;报告&#xA;     XX&#xA;     XX">
+        <items ref="@items.6" text="订单管理"/>
+        <items ref="@items.7" text="    销售订单"/>
+        <items ref="@items.8" text="    采购订单"/>
+        <items ref="@items.9" text="    订单行*"/>
+        <itemChanges xsi:type="o:Insert" newIndex="14">
+          <object xsi:type="model:Item" text="     XX"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Delete" ref="@items.13"/>
+        <itemChanges xsi:type="o:Insert" newIndex="10">
+          <object xsi:type="model:Item" text="    *产品库*"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="10">
+          <object xsi:type="model:Item" text="产品资料库"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="10">
+          <object xsi:type="model:Item" text="    产品询价"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="10">
+          <object xsi:type="model:Item" text="产品询价"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Delete" ref="@items.5"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.4"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+      </widgets>
+      <widgets ref="8" width="146"/>
+      <widgets ref="9" x="214" width="155"/>
+      <widgets ref="15" x="-64" width="864"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Table" id="11" x="192" y="176" width="863" height="696" text="名称,品牌,产地,&#xA;&#xA;名称,品牌,,(w:30). Kids,Likes,(align:center). Actions&#xA;Peter,Severin,39,[x],{computer},[Edit] [View]&#xA;Henri,Severin,(bg:lightGreen).9,[],{train},[Edit] [View]&#xA;Olga,Severin,64,[x],{note},[Edit] [View]&#xA;[-] You can even&#xA;  [+] Make a&#xA;  [+] Tree table" measuredWidth="863" measuredHeight="696" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <hRuler>
+    <guides position="1692"/>
+  </hRuler>
+  <vRuler>
+    <guides position="-76"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="6" x="29" y="160" measuredWidth="125" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="标记所有为已读"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="1" locked="true" measuredWidth="1312" measuredHeight="872">
+    <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="11">
+        <object xsi:type="model:Text" id="10" x="-224" y="211" width="161" text="收件箱&#xA;星标邮件&#xA;已发邮件&#xA;已读邮件&#xA;垃圾箱&#xA;&#xA;频道&#xA;    一般&#xA;&#xA;直接消息&#xA;&#xA;私人频道" foreground="#ffffff">
+          <font size="14px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="16"/>
+      <widgetChanges xsi:type="o:Delete" ref="8"/>
+      <widgetChanges xsi:type="o:Delete" ref="7"/>
+      <widgetChanges xsi:type="o:Delete" ref="5"/>
+      <widgetChanges xsi:type="o:Delete" ref="4"/>
+      <widgets ref="3">
+        <attributes key="background" value="#545454"/>
+        <attributes key="alpha" value="255"/>
+        <attributes key="foreground" value="#545454"/>
+      </widgets>
+      <widgets ref="15" x="-256" width="1311">
+        <attributes key="locked" value="false"/>
+      </widgets>
+      <widgets ref="20/109">
+        <attributes key="background" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="7" x="744" y="124" width="567" text="Search" measuredWidth="567" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="8" x="744" y="162" text="过滤器 {desc},收藏 {desc}" measuredWidth="142" measuredHeight="29" selection="0">
+    <font/>
+    <items x="0" y="0" width="77" height="29" text="过滤器 {desc}"/>
+    <items x="77" y="0" width="65" height="29" text="收藏 {desc}"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="11" x="41" y="122" height="25" text="收件箱" measuredWidth="46" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="12" x="496" y="199" width="814" height="671" measuredWidth="814" measuredHeight="671"/>
+  <widgets xsi:type="model:Panel" id="23" x="207" y="197" width="289" height="674" measuredWidth="289" measuredHeight="674" verticalScrollbar="true"/>
+  <widgets xsi:type="model:Panel" id="27" x="207" y="222" width="273" height="56" measuredWidth="273" measuredHeight="56" background="#cccccc" foreground="#eeeeee" border="none"/>
+  <widgets xsi:type="model:Master" id="19" x="217" y="227" width="280" measuredWidth="280" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/Mail-Component.screen#Mail%20List%20Detail"/>
+    <overrides>
+      <widgets ref="6" width="248"/>
+      <widgets ref="6/26" width="248"/>
+      <widgets ref="7" width="280"/>
+      <widgets ref="6/25" x="-49" y="546"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="217" y="337" width="280" measuredWidth="280" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/Mail-Component.screen#Mail%20List%20Detail"/>
+    <overrides>
+      <widgets ref="6" width="248"/>
+      <widgets ref="6/26" width="248" text="1123@qq.com"/>
+      <widgets ref="7" text="主题： 发票，代开，发票，代开，发票，代开...."/>
+      <widgets ref="6/25" x="-49" y="546"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="217" y="288" width="280" measuredWidth="280" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/Mail-Component.screen#Mail%20List%20Detail"/>
+    <overrides>
+      <widgets ref="6" width="248"/>
+      <widgets ref="6/26" width="248"/>
+      <widgets ref="7" width="280" text="主题： 便宜点卖不卖"/>
+      <widgets ref="6/25" x="-49" y="546"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="550" y="233" text="主题： 回复: 答复: contrinex询价" measuredWidth="296" measuredHeight="35">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="30" x="496" y="293" width="813" measuredWidth="813" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Text" id="31" x="520" y="314" width="489" text="江经理：&#xA;　　　您好！&#xA;　　　货应该差不多要到了吧！&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;在 2016-01-18 16:51:20，&quot;江文燕&quot; &lt;sv817@shidawei.com> 写道：&#xA;在我报价你的基础上只打九折" measuredWidth="489" measuredHeight="120">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="35" x="960" y="280" text="odoo9中这个功能是以小图标展示的,&#xA;依次功能为：&#xA;回复, 转发,星标,完成,删除,关联" measuredWidth="211" measuredHeight="65" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="36" x="864" y="232" width="280" height="40" measuredWidth="280" measuredHeight="40"/>
+  <widgets xsi:type="model:Link" id="38" x="937" y="210" text="添加到黑名单" measuredWidth="75" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="40" x="506" y="215" width="40" height="43" measuredWidth="40" measuredHeight="43"/>
+  <widgets xsi:type="model:Master" id="42" x="720" y="213" width="196" measuredWidth="196" measuredHeight="20">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/Mail-Component.screen#mail%20tooltip"/>
+    <overrides>
+      <widgets ref="9" x="68" width="23" height="20"/>
+      <widgets ref="11" x="103" width="23" height="20"/>
+      <widgets ref="12" x="34" width="23" height="20"/>
+      <widgets ref="13" width="23" height="20"/>
+      <widgets ref="14" x="137" width="23" height="20"/>
+      <widgets ref="15" x="172" width="23" height="20"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Note" id="44" x="176" y="119" text="批量处理按钮拜访位置" measuredWidth="137" measuredHeight="31">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="45" x="197" y="146" width="56" height="25" measuredWidth="56" measuredHeight="25" direction="bottom"/>
+  <widgets xsi:type="model:Master" id="46" x="552" y="208" measuredWidth="141" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Buttons.screen#Link%20Large"/>
+    <overrides>
+      <widgets ref="53" text="深圳XX科技公司"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="47" x="24" y="154" measuredWidth="95" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="标记为已读"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="49" x="207" y="206" width="273" measuredWidth="273" measuredHeight="17">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/Mail-Component.screen#Mail-Line"/>
+    <overrides>
+      <widgets ref="1" width="273"/>
+      <widgets ref="2" width="273"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="50" x="207" y="277" measuredWidth="273" measuredHeight="17">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/Mail-Component.screen#Mail-Line"/>
+    <overrides>
+      <widgets ref="1" width="273"/>
+      <widgets ref="2" width="273" text="昨天"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

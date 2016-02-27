@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Group" id="24" x="561" y="452" width="216" height="232" text="Group" measuredWidth="216" measuredHeight="232">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="1" y="-8" locked="true" measuredWidth="1312" measuredHeight="872">
+    <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="20"/>
+      <widgetChanges xsi:type="o:Delete" ref="16"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="4" x="217" y="202" width="1084" height="652" locked="true" measuredWidth="1084" measuredHeight="652"/>
+  <widgets xsi:type="model:HLine" id="5" x="227" y="376" width="1074" measuredWidth="1074" measuredHeight="6"/>
+  <widgets xsi:type="model:CoverFlow" id="6" x="256" y="224" measuredWidth="270" measuredHeight="125"/>
+  <widgets xsi:type="model:Label" id="13" x="66" y="2" text="Tab, ~Disabled~, Dropdown {desc}" measuredWidth="161" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="232" y="432" measuredWidth="409" measuredHeight="57">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="776" y="432" measuredWidth="409" measuredHeight="57">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="43" x="232" y="490" measuredWidth="409" measuredHeight="57">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="3" x="24" measuredWidth="409" measuredHeight="57" name="Fleid Line">
+    <widgets xsi:type="model:Master" id="11" x="152" y="10" measuredWidth="257" measuredHeight="35">
+      <screen xsi:type="model:WidgetGroup" href="../Bootstrap/Forms.screen#Text%20Input"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="12" y="14" text="Label" measuredWidth="43" measuredHeight="25">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="13" x="136" height="57" measuredWidth="6" measuredHeight="57" foreground="#dddddd"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="16" y="88" measuredWidth="301" measuredHeight="101" name="Fleid Title">
+    <widgets xsi:type="model:Label" id="4" text="Label" measuredWidth="43" measuredHeight="25">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Master" id="10" y="32" measuredWidth="301" measuredHeight="69">
+      <screen xsi:type="model:WidgetGroup" href="../Bootstrap/Forms.screen#Text%20Input%20Large"/>
+      <overrides>
+        <widgets ref="3" width="301">
+          <font size="28px"/>
+        </widgets>
+      </overrides>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="16" y="216" measuredWidth="107" measuredHeight="31" name="Group Tile">
+    <widgets xsi:type="model:Label" id="15" text="Group Title" measuredWidth="107" measuredHeight="31" foreground="#7c7bad">
+      <font size="20px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="16" y="264" measuredWidth="1104" measuredHeight="376" name="Message Board">
+    <widgets xsi:type="model:Panel" id="18" width="1104" height="376" measuredWidth="1104" measuredHeight="376"/>
+    <widgets xsi:type="model:Master" id="19" x="139" y="32" measuredWidth="112" measuredHeight="34">
+      <screen xsi:type="model:WidgetGroup" href="../Bootstrap/Buttons.screen#Button%20Primary"/>
+      <overrides>
+        <widgets ref="35" text="New message"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Master" id="20" x="277" y="32" measuredWidth="131" measuredHeight="25">
+      <screen xsi:type="model:WidgetGroup" href="../Bootstrap/Buttons.screen#Link"/>
+      <overrides>
+        <widgets ref="44" text="Log a Internal Note"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Master" id="21" x="695" y="32" measuredWidth="65" measuredHeight="34">
+      <screen xsi:type="model:WidgetGroup" href="../Bootstrap/Buttons.screen#Button%20Primary"/>
+      <overrides>
+        <widgets ref="35" text="Follow"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Master" id="22" x="851" y="32" measuredWidth="109" measuredHeight="34">
+      <screen xsi:type="model:WidgetGroup" href="../Bootstrap/Buttons.screen#Button"/>
+      <overrides>
+        <widgets ref="21" text="One Follower"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="23" x="138" y="122" width="822" measuredWidth="822" measuredHeight="6" foreground="#dddddd"/>
+    <widgets xsi:type="model:Text" id="24" x="353" y="117" width="364" text="Today" measuredWidth="364" measuredHeight="15" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Image" id="25" x="138" y="168" width="40" height="40" measuredWidth="40" measuredHeight="40"/>
+    <widgets xsi:type="model:Panel" id="26" x="191" y="168" width="768" height="44" measuredWidth="768" measuredHeight="44" background="#eeeeee"/>
+    <widgets xsi:type="model:Text" id="27" x="199" y="174" width="757" height="35" text="Note By Admin:&#xA;this is great!!" measuredWidth="757" measuredHeight="35">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Image" id="28" x="138" y="232" width="40" height="40" measuredWidth="40" measuredHeight="40"/>
+    <widgets xsi:type="model:Panel" id="29" x="191" y="233" width="768" height="44" measuredWidth="768" measuredHeight="44" background="#eeeeee"/>
+    <widgets xsi:type="model:Text" id="30" x="198" y="243" width="762" height="34" text="Note By Admin:&#xA;Please Confirm." measuredWidth="762" measuredHeight="34">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

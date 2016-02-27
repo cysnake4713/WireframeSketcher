@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="-256" width="1312" height="872" text="Browser&#xA;http://..." measuredWidth="1312" measuredHeight="872">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="-256" y="52" width="208" height="818" measuredWidth="208" measuredHeight="818" background="#f0eeee" alpha="182"/>
+  <widgets xsi:type="model:Panel" id="2" x="-256" y="52" width="1312" height="52" locked="true" measuredWidth="1312" measuredHeight="52" background="#333333" foreground="#ffffff"/>
+  <widgets xsi:type="model:HLine" id="5" x="-256" y="277" width="208" locked="true" measuredWidth="208" measuredHeight="6"/>
+  <widgets xsi:type="model:List" id="7" x="-227" y="288" width="169" text="概览&#xA;消息&#xA;订单管理&#xA;    销售订单&#xA;    采购订单&#xA;    订单行*&#xA;产品询价&#xA;    产品询价&#xA;产品资料库&#xA;    产品库&#xA;    品牌库&#xA;报告&#xA;     XX&#xA;     XX" locked="true" measuredWidth="169" measuredHeight="362" border="false" alpha="0">
+    <font size="14px"/>
+    <items x="0" y="2" width="169" height="26" text="概览"/>
+    <items x="0" y="28" width="169" height="26" text="消息"/>
+    <items x="0" y="54" width="169" height="26" text="订单管理"/>
+    <items x="0" y="80" width="169" height="26" text="    销售订单"/>
+    <items x="0" y="106" width="169" height="26" text="    采购订单"/>
+    <items x="0" y="132" width="169" height="26" text="    订单行*"/>
+    <items x="0" y="158" width="169" height="26" text="产品询价"/>
+    <items x="0" y="184" width="169" height="26" text="    产品询价"/>
+    <items x="0" y="210" width="169" height="26" text="产品资料库"/>
+    <items x="0" y="236" width="169" height="26" text="    产品库"/>
+    <items x="0" y="262" width="169" height="26" text="    品牌库"/>
+    <items x="0" y="288" width="169" height="26" text="报告"/>
+    <items x="0" y="314" width="169" height="23" text="     XX"/>
+    <items x="0" y="337" width="169" height="23" text="     XX"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="8" x="-235" y="135" width="164" height="82" text="公司商标" locked="true" measuredWidth="164" measuredHeight="82"/>
+  <widgets xsi:type="model:TextField" id="9" x="328" y="60" text="Head Here" locked="true" measuredWidth="126" measuredHeight="36" background="#000000" borderColor="#ffffff">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="15" x="-49" y="100" width="1104" locked="true" measuredWidth="1104" measuredHeight="100" background="#f0eeee"/>
+  <widgets xsi:type="model:Breadcrumbs" id="21" x="-32" y="120" text="导航1,导航2" locked="true" measuredWidth="123" measuredHeight="33">
+    <font size="18px"/>
+    <items x="0" y="0" width="50" height="33" text="导航1"/>
+    <items x="70" y="0" width="50" height="33" text="导航2"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
