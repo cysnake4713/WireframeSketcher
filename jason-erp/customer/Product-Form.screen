@@ -17,13 +17,13 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Master" id="41" x="232" y="432" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
   </widgets>
   <widgets xsi:type="model:Master" id="42" x="776" y="432" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
   </widgets>
   <widgets xsi:type="model:Master" id="43" x="232" y="490" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
   </widgets>
   <hRuler/>
   <vRuler/>

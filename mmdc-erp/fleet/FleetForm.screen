@@ -63,11 +63,13 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="4" x="207" y="250" width="1102" height="1136" measuredWidth="1102" measuredHeight="1136"/>
-  <widgets xsi:type="model:Master" id="5" x="248" y="280" measuredWidth="301" measuredHeight="101">
+  <widgets xsi:type="model:Master" id="5" x="246" y="328" measuredWidth="301" measuredHeight="67">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Title"/>
     <overrides>
       <widgets ref="4" text="Equipment No."/>
-      <widgets ref="10/3" text="DT-02"/>
+      <widgets ref="10/3" text="DT-02">
+        <font size="14px"/>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="7" x="240" y="403" measuredWidth="1049" measuredHeight="41">
@@ -87,37 +89,41 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="9" x="246" y="539" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Operator"/>
+      <widgets ref="11/1" text="many2one"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="10" x="246" y="596" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Odometer Value"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="11" x="246" y="653" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Equipment Status"/>
+      <widgets ref="11/1" text="Selection"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="12" x="246" y="710" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Operating Hours"/>
+      <widgets ref="11/1" text="float Input"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="13" x="246" y="767" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Downtime"/>
+      <widgets ref="11/1" text="Datetime"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="14" x="246" y="830" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Stand By Time"/>
     </overrides>
@@ -129,39 +135,39 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="16" x="729" y="537" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Work Code"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="17" x="729" y="765" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Encoder"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="18" x="729" y="822" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Location"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="20" x="729" y="708" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Program Hours"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="21" x="729" y="651" measuredWidth="409" measuredHeight="57">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Line"/>
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
     <overrides>
       <widgets ref="12" text="Remarks"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="25" x="224" y="971" measuredWidth="1076" measuredHeight="128">
+  <widgets xsi:type="model:Master" id="25" x="217" y="971" width="1085" measuredWidth="1085" measuredHeight="159">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Content.screen#Table%20Condensed"/>
     <overrides>
-      <widgets ref="53" width="1076" text="Service Type,Component,Part No.,lPart Name,Equipment No.,WIS,Cost Code,Component,Budget Allow,PO No.,PO Date,QTY,Unit Cost,Total Amount,Encoder&#xA;Mark, Otto, @mdo&#xA;Jacob, Thornton, @fat&#xA;Larry, the Bird, @twitter"/>
+      <widgets ref="53" width="1085" text="Service Type,Component,Part No.,lPart Name,QTY,Cost Code,Budget Allow,PO No.,PO Date,Unit Cost,Total Amount,Encoder&#xA;Mark, Otto, @mdo&#xA;Jacob, Thornton, @fat&#xA;Larry, the Bird, @twitter&#xA;&#xA;"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="26" x="246" y="915" measuredWidth="160" measuredHeight="31">
@@ -176,10 +182,10 @@
       <widgets ref="15" text="Tire Changing Details"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="28" x="224" y="1189" measuredWidth="1076" measuredHeight="128">
+  <widgets xsi:type="model:Master" id="28" x="217" y="1189" width="1608" measuredWidth="1608" measuredHeight="128">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Content.screen#Table%20Condensed"/>
     <overrides>
-      <widgets ref="53" width="1076" text="Service Type,Component,Date Inspected,Tire Type,Tire Location,Tire Branding No.,Tire PR Rating,Tire  ODT,RTD Demounted,Demounted Odometer,Mounted Odometer,Date Demounted,Date Mounted&#xA;1, Mark, Otto, @mdo&#xA;2, Jacob, Thornton, @fat&#xA;3, Larry, the Bird, @twitter"/>
+      <widgets ref="53" width="1608" text="Service Type,Component,Tire Type,Tire Location,Tire Branding No.,Tire PR Rating,Tire  ODT,RTD Demounted,Demounted Odometer,Mounted Odometer,Date Inspected,Date Demounted,Date Mounted&#xA;Mark, Otto, @mdo&#xA;Jacob, Thornton, @fat&#xA;Larry, the Bird, @twitter"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="30" x="207" y="199" width="1104" height="44" measuredWidth="1104" measuredHeight="44" background="#f0eeee"/>
@@ -192,6 +198,15 @@
   </widgets>
   <widgets xsi:type="model:Master" id="51" x="207" y="1408" measuredWidth="1104" measuredHeight="376">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Message%20Board"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="52" x="729" y="593" measuredWidth="409" measuredHeight="57">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Date%20Field"/>
+    <overrides>
+      <widgets ref="12" text="WIS"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Text" id="54" x="246" y="282" text="JO000021" measuredWidth="133" measuredHeight="33">
+    <font size="28px"/>
   </widgets>
   <hRuler/>
   <vRuler/>
