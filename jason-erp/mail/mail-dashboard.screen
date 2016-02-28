@@ -32,14 +32,6 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:SearchField" id="7" x="744" y="124" width="567" text="Search" measuredWidth="567" measuredHeight="24">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:ButtonBar" id="8" x="744" y="162" text="过滤器 {desc},收藏 {desc}" measuredWidth="142" measuredHeight="29" selection="0">
-    <font/>
-    <items x="0" y="0" width="77" height="29" text="过滤器 {desc}"/>
-    <items x="77" y="0" width="65" height="29" text="收藏 {desc}"/>
-  </widgets>
   <widgets xsi:type="model:Text" id="11" x="41" y="122" height="25" text="收件箱" measuredWidth="46" measuredHeight="25">
     <font size="14px"/>
   </widgets>
@@ -128,6 +120,9 @@
       <widgets ref="1" width="273"/>
       <widgets ref="2" width="273" text="昨天"/>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="52" x="739" y="116" measuredWidth="567" measuredHeight="67">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Tree-Component.screen#Search%20Bar"/>
   </widgets>
   <hRuler/>
   <vRuler/>

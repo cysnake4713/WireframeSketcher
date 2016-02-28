@@ -6,8 +6,48 @@
   <widgets xsi:type="model:Master" id="1" y="-8" locked="true" measuredWidth="1312" measuredHeight="872">
     <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
     <overrides>
-      <widgetChanges xsi:type="o:Delete" ref="20"/>
-      <widgetChanges xsi:type="o:Delete" ref="16"/>
+      <widgets ref="7" text="概览&#xA;消息&#xA;订单管理&#xA;    销售订单&#xA;    采购订单&#xA;    订单行*&#xA;产品询价&#xA;    产品询价&#xA;产品资料库&#xA;    产品库&#xA;    品牌库&#xA;报告&#xA;     XX&#xA;     XX">
+        <items ref="@items.0" text="概览"/>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="     XX"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="     XX"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="报告"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="    品牌库"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="    产品库"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="产品资料库"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="    产品询价"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="产品询价"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="    订单行*"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="    采购订单"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="    销售订单"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="订单管理"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="消息"/>
+        </itemChanges>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="4" x="217" y="202" width="1084" height="652" locked="true" measuredWidth="1084" measuredHeight="652"/>
