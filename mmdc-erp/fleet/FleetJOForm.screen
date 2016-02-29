@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="3" height="1920" measuredWidth="1312" measuredHeight="1920">
+  <widgets xsi:type="model:Master" id="3" height="1696" measuredWidth="1312" measuredHeight="1696">
     <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="7"/>
-      <widgets ref="1" height="1920"/>
-      <widgets ref="3" y="113" height="1800"/>
+      <widgets ref="1" height="1696"/>
+      <widgets ref="3" y="53" height="1635"/>
       <widgets ref="21" text="JO Orders,JO000021">
         <items ref="@items.0" text="JO Orders"/>
         <items ref="@items.1" text="JO000021"/>
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Panel" id="4" x="207" y="250" width="1102" height="1286" measuredWidth="1102" measuredHeight="1286"/>
+  <widgets xsi:type="model:Panel" id="4" x="207" y="250" width="1102" height="1047" measuredWidth="1102" measuredHeight="1047"/>
   <widgets xsi:type="model:Master" id="5" x="246" y="328" measuredWidth="301" measuredHeight="67">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Fleid%20Title"/>
     <overrides>
@@ -98,16 +98,16 @@
       <widgets ref="15" text="Repairing Details"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="27" x="246" y="1082" measuredWidth="197" measuredHeight="31">
+  <widgets xsi:type="model:Master" id="27" x="246" y="1082" measuredWidth="89" measuredHeight="31">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Group%20Tile"/>
     <overrides>
-      <widgets ref="15" text="Tire Changing Details"/>
+      <widgets ref="15" text="Tire Logs"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="28" x="217" y="1120" measuredWidth="1084" measuredHeight="128">
+  <widgets xsi:type="model:Master" id="28" x="217" y="1120" measuredWidth="1084" measuredHeight="159">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Content.screen#Table%20Condensed"/>
     <overrides>
-      <widgets ref="53" width="1084" text="Service Type,Component,Tire Type,Tire Location,Tire Branding No.,Tire PR Rating,Tire  ODT,RTD Demounted,Date Mounted&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;"/>
+      <widgets ref="53" width="1084" text="Service Type,Tire,Tire Location,RTD Demounted,Remarks,Log Date&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="30" x="207" y="199" width="1104" height="44" measuredWidth="1104" measuredHeight="44" background="#f0eeee"/>
@@ -118,7 +118,7 @@
     <items x="177" y="0" width="92" height="30" text="Processing"/>
     <items x="289" y="0" width="46" height="30" text="Done"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="51" x="207" y="1540" measuredWidth="1104" measuredHeight="376">
+  <widgets xsi:type="model:Master" id="51" x="207" y="1304" measuredWidth="1104" measuredHeight="376">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Message%20Board"/>
   </widgets>
   <widgets xsi:type="model:Master" id="52" x="729" y="548" measuredWidth="409" measuredHeight="57">
@@ -154,26 +154,14 @@
       <widgets ref="36" text="Equipment Status"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="60" x="10" y="282" measuredWidth="169" measuredHeight="857">
-    <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
-  </widgets>
-  <widgets xsi:type="model:Master" id="61" x="246" y="1240" measuredWidth="190" measuredHeight="31">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Group%20Tile"/>
-    <overrides>
-      <widgets ref="15" text="Tire Demond Details"/>
-    </overrides>
-  </widgets>
-  <widgets xsi:type="model:Master" id="62" x="217" y="1280" measuredWidth="1084" measuredHeight="159">
-    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Content.screen#Table%20Condensed"/>
-    <overrides>
-      <widgets ref="53" width="1084" text="Service Type,Component,Tire Type,Tire Location,Tire Branding No.,Tire PR Rating,Tire  ODT,RTD Demounted,Demounted Odometer,Date Demounted&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;"/>
-    </overrides>
-  </widgets>
   <widgets xsi:type="model:Master" id="63" x="246" y="837" measuredWidth="409" measuredHeight="57">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Many2one%20Field"/>
     <overrides>
       <widgets ref="36" text="Operator"/>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="64" x="10" y="288" measuredWidth="169" measuredHeight="857">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
   </widgets>
   <hRuler/>
   <vRuler/>

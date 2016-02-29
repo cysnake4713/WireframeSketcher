@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:WidgetGroup" id="2" x="10" y="10" measuredWidth="169" measuredHeight="857" name="Menuitem">
-    <widgets xsi:type="model:List" id="1" width="169" height="857" text="Job Orders&#xA;&#xA;Vehicles&#xA;    Vehicles&#xA;    Vehicles Contracts&#xA;    &#xA;Logs&#xA;    Vehicles Fuel Logs&#xA;    Vehicles Services Logs&#xA;    Vehicles Tire Logs&#xA;    Vehicles Odometer&#xA;    Vehicle Costs&#xA;    &#xA;Reports&#xA;    Costs&#xA;    Indicative Costs&#xA;    &#xA;Configuration&#xA;    Fleet Type&#xA;    Fleet Equipment Type&#xA;    Recommendation&#xA;    Vehicle Model&#xA;    Model make of Vehicle&#xA;    Vehicle Status&#xA;    Service Types" locked="true" measuredWidth="169" measuredHeight="857" border="false" alpha="0">
+    <widgets xsi:type="model:List" id="1" width="169" height="857" text="Job Orders&#xA;&#xA;Vehicles&#xA;    Vehicles&#xA;    Vehicles Contracts&#xA;    Vehicles Fuel Logs&#xA;    Vehicles Services Logs&#xA;    Vehicles Tire Logs&#xA;    Vehicles Odometer&#xA;    Vehicle Costs&#xA;    &#xA;Tires&#xA;     Tires&#xA;     Tires Log&#xA;     Tires Report&#xA;     &#xA;Reports&#xA;    Costs&#xA;    Indicative Costs&#xA;    &#xA;Configuration&#xA;    Fleet Type&#xA;    Fleet Equipment Type&#xA;    Recommendation&#xA;    Vehicle Model&#xA;    Model make of Vehicle&#xA;    Vehicle Status&#xA;    Service Types" locked="true" measuredWidth="169" measuredHeight="857" border="false" alpha="0">
       <font size="14px"/>
       <items x="0" y="2" width="169" height="23" text="Job Orders"/>
       <items x="0" y="25" width="169" height="23"/>
       <items x="0" y="48" width="169" height="23" text="Vehicles"/>
       <items x="0" y="71" width="169" height="23" text="    Vehicles"/>
       <items x="0" y="94" width="169" height="23" text="    Vehicles Contracts"/>
-      <items x="0" y="117" width="169" height="23" text="    "/>
-      <items x="0" y="140" width="169" height="23" text="Logs"/>
-      <items x="0" y="163" width="169" height="23" text="    Vehicles Fuel Logs"/>
-      <items x="0" y="186" width="169" height="23" text="    Vehicles Services Logs"/>
-      <items x="0" y="209" width="169" height="23" text="    Vehicles Tire Logs"/>
-      <items x="0" y="232" width="169" height="23" text="    Vehicles Odometer"/>
-      <items x="0" y="255" width="169" height="23" text="    Vehicle Costs"/>
-      <items x="0" y="278" width="169" height="23" text="    "/>
-      <items x="0" y="301" width="169" height="23" text="Reports"/>
-      <items x="0" y="324" width="169" height="23" text="    Costs"/>
-      <items x="0" y="347" width="169" height="23" text="    Indicative Costs"/>
-      <items x="0" y="370" width="169" height="23" text="    "/>
-      <items x="0" y="393" width="169" height="23" text="Configuration"/>
-      <items x="0" y="416" width="169" height="23" text="    Fleet Type"/>
-      <items x="0" y="439" width="169" height="23" text="    Fleet Equipment Type"/>
-      <items x="0" y="462" width="169" height="23" text="    Recommendation"/>
-      <items x="0" y="485" width="169" height="23" text="    Vehicle Model"/>
-      <items x="0" y="508" width="169" height="23" text="    Model make of Vehicle"/>
-      <items x="0" y="531" width="169" height="23" text="    Vehicle Status"/>
-      <items x="0" y="554" width="169" height="23" text="    Service Types"/>
+      <items x="0" y="117" width="169" height="23" text="    Vehicles Fuel Logs"/>
+      <items x="0" y="140" width="169" height="23" text="    Vehicles Services Logs"/>
+      <items x="0" y="163" width="169" height="23" text="    Vehicles Tire Logs"/>
+      <items x="0" y="186" width="169" height="23" text="    Vehicles Odometer"/>
+      <items x="0" y="209" width="169" height="23" text="    Vehicle Costs"/>
+      <items x="0" y="232" width="169" height="23" text="    "/>
+      <items x="0" y="255" width="169" height="23" text="Tires"/>
+      <items x="0" y="278" width="169" height="23" text="     Tires"/>
+      <items x="0" y="301" width="169" height="23" text="     Tires Log"/>
+      <items x="0" y="324" width="169" height="23" text="     Tires Report"/>
+      <items x="0" y="347" width="169" height="23" text="     "/>
+      <items x="0" y="370" width="169" height="23" text="Reports"/>
+      <items x="0" y="393" width="169" height="23" text="    Costs"/>
+      <items x="0" y="416" width="169" height="23" text="    Indicative Costs"/>
+      <items x="0" y="439" width="169" height="23" text="    "/>
+      <items x="0" y="462" width="169" height="23" text="Configuration"/>
+      <items x="0" y="485" width="169" height="23" text="    Fleet Type"/>
+      <items x="0" y="508" width="169" height="23" text="    Fleet Equipment Type"/>
+      <items x="0" y="531" width="169" height="23" text="    Recommendation"/>
+      <items x="0" y="554" width="169" height="23" text="    Vehicle Model"/>
+      <items x="0" y="577" width="169" height="23" text="    Model make of Vehicle"/>
+      <items x="0" y="600" width="169" height="23" text="    Vehicle Status"/>
+      <items x="0" y="623" width="169" height="23" text="    Service Types"/>
     </widgets>
   </widgets>
   <hRuler/>
