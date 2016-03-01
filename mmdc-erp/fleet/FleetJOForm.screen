@@ -38,7 +38,7 @@
       <widgets ref="15" text="Equipment Details"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="10" x="246" y="551" measuredWidth="409" measuredHeight="57">
+  <widgets xsi:type="model:Master" id="10" x="246" y="547" measuredWidth="409" measuredHeight="57">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Text%20Field"/>
     <overrides>
       <widgets ref="12" text="Odometer Value"/>
@@ -98,10 +98,10 @@
       <widgets ref="15" text="Repairing Details"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="27" x="246" y="1082" measuredWidth="89" measuredHeight="31">
+  <widgets xsi:type="model:Master" id="27" x="246" y="1082" measuredWidth="111" measuredHeight="31">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Group%20Tile"/>
     <overrides>
-      <widgets ref="15" text="Tire Logs"/>
+      <widgets ref="15" text="Tire Service"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="28" x="217" y="1120" measuredWidth="1084" measuredHeight="159">
@@ -142,7 +142,7 @@
       <widgets ref="33" text="Stand By Time"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="58" x="248" y="490" measuredWidth="409" measuredHeight="57">
+  <widgets xsi:type="model:Master" id="58" x="246" y="492" measuredWidth="409" measuredHeight="57">
     <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Form-Component.screen#Many2one%20Field"/>
     <overrides>
       <widgets ref="36" text="Operator"/>
@@ -160,7 +160,7 @@
       <widgets ref="36" text="Operator"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="64" x="10" y="288" measuredWidth="169" measuredHeight="857">
+  <widgets xsi:type="model:Master" id="64" x="10" y="288" measuredWidth="207" measuredHeight="857">
     <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
   </widgets>
   <hRuler/>

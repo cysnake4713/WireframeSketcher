@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
-  <widgets xsi:type="model:Master" id="1" height="976" measuredWidth="1312" measuredHeight="976">
+  <widgets xsi:type="model:Master" id="1" height="1138" measuredWidth="1312" measuredHeight="1138">
     <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
     <overrides>
-      <widgets ref="1" height="976"/>
-      <widgets ref="3" y="56" height="915"/>
+      <widgets ref="1" height="1138"/>
+      <widgets ref="3" y="65" height="1066"/>
       <widgets ref="21" text="Tires Report">
         <items ref="@items.1" text="Tires Report"/>
         <itemChanges xsi:type="o:Delete" ref="@items.0"/>
@@ -20,7 +20,7 @@
       <widgets ref="53" width="1102" height="672" text="Tire,Tire Location,Equipment,RTD Demounted,Mounted Odometer,Date Mounted,Demounted Odometer,Date Demounted&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;,,,,&#xA;"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="5" x="21" y="288" measuredWidth="169" measuredHeight="857">
+  <widgets xsi:type="model:Master" id="5" y="282" measuredWidth="207" measuredHeight="857">
     <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
   </widgets>
   <hRuler/>
