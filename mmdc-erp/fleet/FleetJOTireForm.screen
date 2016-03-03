@@ -102,7 +102,7 @@
       <widgets ref="37" text="Michael"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="64" x="10" y="288" measuredWidth="207" measuredHeight="857">
+  <widgets xsi:type="model:Master" id="64" x="10" y="288" width="189" measuredWidth="189" measuredHeight="857">
     <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
   </widgets>
   <widgets xsi:type="model:Master" id="65" x="246" y="552" measuredWidth="409" measuredHeight="57">

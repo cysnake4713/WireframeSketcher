@@ -34,7 +34,7 @@
       <items x="0" y="646" width="207" height="23" text="&#x9;"/>
       <items x="0" y="669" width="207" height="23" text="Forecast&#x9;"/>
       <items x="0" y="692" width="207" height="23" text="    Tire Forecasts "/>
-      <items x="0" y="715" width="207" height="23" text="    Part Forecasts"/>
+      <items link="../../fleet/FleetTireForecastsTree.screen" x="0" y="715" width="207" height="23" text="    Part Forecasts"/>
       <items x="0" y="738" width="207" height="23" text="&#x9;"/>
       <items x="0" y="761" width="207" height="23" text="Advance&#x9;"/>
       <items x="0" y="784" width="207" height="23" text="    Equipments Contacts"/>

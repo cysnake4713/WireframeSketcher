@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" width="2048" measuredWidth="2048" measuredHeight="1256">
+    <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
+    <overrides>
+      <widgets ref="1" width="2048" height="1256"/>
+      <widgets ref="3" y="71" height="1184">
+        <attributes key="locked" value="true"/>
+      </widgets>
+      <widgets ref="21" text="Tire Forecasts">
+        <items ref="@items.1" text="Tire Forecasts"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="15" width="1835">
+        <attributes key="locked" value="false"/>
+      </widgets>
+      <widgets ref="2" width="2048">
+        <attributes key="locked" value="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="1451" y="120" measuredWidth="567" measuredHeight="67">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Tree-Component.screen#Search%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="209" y="200" width="1838" measuredWidth="1838" measuredHeight="1044">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Content.screen#Table%20Condensed"/>
+    <overrides>
+      <widgets ref="53" width="1838" height="1044" text="Equipment&#x9;Source JO Ref.&#x9;Generated JO Ref.&#x9;Tire Location&#x9;Tire S/N&#x9;ODT&#x9;Inspect RDT&#x9;Service&#x9;Forcasted Odometer &#x9;Forcasted Service &#x9;Scheduled Odometer&#x9;Scheduled Service&#x9;Trigger Odometer&#x9;Scheduled Date&#x9;Last Modified Time&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;CLO&#x9;4OA0421092&#x9;&#x9;&#x9;&#x9;60000&#x9;Demount&#x9;70000&#x9;Demount&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;CRO&#x9;3HA1321562&#x9;&#x9;&#x9;&#x9;70000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;CRI&#x9;4OA0421092&#x9;&#x9;&#x9;&#x9;75000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;RLI&#x9;3HA1321562&#x9;&#x9;&#x9;&#x9;60000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;RLI&#x9;4OA0421092&#x9;&#x9;&#x9;&#x9;70000&#x9;Demount&#x9;70000&#x9;Demount&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;RLO&#x9;3HA1321562&#x9;&#x9;&#x9;&#x9;75000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;RRI&#x9;E0912056090&#x9;&#x9;&#x9;&#x9;60000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;RRO&#x9;E0812056048&#x9;&#x9;&#x9;&#x9;70000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;CLI&#x9;E0812056044&#x9;&#x9;&#x9;&#x9;85000&#x9;Demount&#x9;70000&#x9;Inspect&#x9;56400&#x9;2016/3/30&#x9;&#xA;">
+        <attributes key="rowHeight" value="40"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" y="282" measuredWidth="207" measuredHeight="857">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
