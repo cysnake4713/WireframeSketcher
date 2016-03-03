@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:WidgetGroup" id="2" y="8" measuredWidth="207" measuredHeight="857" name="Menuitem">
-    <widgets xsi:type="model:List" id="1" width="207" height="857" text="Equipments&#x9;&#xA;    Equipments&#xA;    Equipment Odometer&#xA;    Equipments Status Logs&#xA;&#x9;&#xA;Job Orders&#x9;&#xA;    Forecasted Job Orders&#xA;    Draft Job Orders&#xA;    Job Orders&#xA;&#x9;&#xA;Tires&#x9;&#xA;    Tires&#xA;    Tire Logs&#xA;&#x9;&#xA;Spare Parts&#x9;&#xA;    Spare Parts&#xA;    Spare Parts Logs&#xA;&#x9;&#xA;Fuel&#x9;&#xA;    Fuel Consumption Logs&#xA;&#x9;&#xA;Equipment Cost&#x9;&#xA;    Effective Cost logs&#xA;    Indicative Cost logs&#xA;&#x9;&#xA;Reports&#x9;&#xA;    Cost&#xA;    Indicative Cost&#xA;&#x9;&#xA;Advance&#x9;&#xA;    Equipments Contacts&#xA;    Equipments Services Logs&#xA;    Equipment Refueling Logs" locked="true" measuredWidth="207" measuredHeight="857" border="false" alpha="0">
+    <widgets xsi:type="model:List" id="1" width="207" height="857" text="Equipments&#x9;&#xA;    Equipments&#xA;    Equipment Odometer&#xA;    Equipments Status Logs&#xA;&#x9;&#xA;Job Orders&#x9;&#xA;    Forecasted Job Orders&#xA;    Draft Job Orders&#xA;    Job Orders&#xA;&#x9;&#xA;Tires&#x9;&#xA;    Tire Withdrawal&#xA;    Tire Logs&#xA;&#x9;&#xA;Spare Parts&#x9;&#xA;    Spare Parts Withdrawal&#xA;    Spare Parts Logs&#xA;&#x9;&#xA;Fuel&#x9;&#xA;    Fuel Consumption Logs&#xA;&#x9;&#xA;Equipment Cost&#x9;&#xA;    Effective Cost logs&#xA;    Indicative Cost logs&#xA;&#x9;&#xA;Reports&#x9;&#xA;    Cost&#xA;    Indicative Cost&#xA;&#x9;&#xA;Forecast&#x9;&#xA;    Tire Forecasts &#xA;    Part Forecasts&#xA;&#x9;&#xA;Advance&#x9;&#xA;    Equipments Contacts&#xA;    Equipments Services Logs&#xA;    Equipment Refueling Logs&#xA;" locked="true" measuredWidth="207" measuredHeight="857" border="false" alpha="0">
       <font size="14px"/>
       <items x="0" y="2" width="207" height="23" text="Equipments&#x9;"/>
       <items x="0" y="25" width="207" height="23" text="    Equipments"/>
@@ -11,14 +11,14 @@
       <items x="0" y="117" width="207" height="23" text="Job Orders&#x9;"/>
       <items x="0" y="140" width="207" height="23" text="    Forecasted Job Orders"/>
       <items x="0" y="163" width="207" height="23" text="    Draft Job Orders"/>
-      <items x="0" y="186" width="207" height="23" text="    Job Orders"/>
+      <items link="../../fleet/FleetJOTireForm.screen" x="0" y="186" width="207" height="23" text="    Job Orders"/>
       <items x="0" y="209" width="207" height="23" text="&#x9;"/>
       <items x="0" y="232" width="207" height="23" text="Tires&#x9;"/>
-      <items x="0" y="255" width="207" height="23" text="    Tires"/>
+      <items x="0" y="255" width="207" height="23" text="    Tire Withdrawal"/>
       <items x="0" y="278" width="207" height="23" text="    Tire Logs"/>
       <items x="0" y="301" width="207" height="23" text="&#x9;"/>
       <items x="0" y="324" width="207" height="23" text="Spare Parts&#x9;"/>
-      <items x="0" y="347" width="207" height="23" text="    Spare Parts"/>
+      <items x="0" y="347" width="207" height="23" text="    Spare Parts Withdrawal"/>
       <items x="0" y="370" width="207" height="23" text="    Spare Parts Logs"/>
       <items x="0" y="393" width="207" height="23" text="&#x9;"/>
       <items x="0" y="416" width="207" height="23" text="Fuel&#x9;"/>
@@ -32,10 +32,14 @@
       <items x="0" y="600" width="207" height="23" text="    Cost"/>
       <items x="0" y="623" width="207" height="23" text="    Indicative Cost"/>
       <items x="0" y="646" width="207" height="23" text="&#x9;"/>
-      <items x="0" y="669" width="207" height="23" text="Advance&#x9;"/>
-      <items x="0" y="692" width="207" height="23" text="    Equipments Contacts"/>
-      <items x="0" y="715" width="207" height="23" text="    Equipments Services Logs"/>
-      <items x="0" y="738" width="207" height="23" text="    Equipment Refueling Logs"/>
+      <items x="0" y="669" width="207" height="23" text="Forecast&#x9;"/>
+      <items x="0" y="692" width="207" height="23" text="    Tire Forecasts "/>
+      <items x="0" y="715" width="207" height="23" text="    Part Forecasts"/>
+      <items x="0" y="738" width="207" height="23" text="&#x9;"/>
+      <items x="0" y="761" width="207" height="23" text="Advance&#x9;"/>
+      <items x="0" y="784" width="207" height="23" text="    Equipments Contacts"/>
+      <items x="0" y="807" width="207" height="23" text="    Equipments Services Logs"/>
+      <items x="0" y="830" width="207" height="23" text="    Equipment Refueling Logs"/>
     </widgets>
   </widgets>
   <hRuler/>

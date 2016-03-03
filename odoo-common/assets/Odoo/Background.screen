@@ -11,9 +11,6 @@
     <items x="0" y="2" width="169" height="23"/>
   </widgets>
   <widgets xsi:type="model:Image" id="8" x="-235" y="135" width="164" height="82" text="公司商标" locked="true" measuredWidth="164" measuredHeight="82"/>
-  <widgets xsi:type="model:TextField" id="9" x="328" y="60" text="Head Here" locked="true" measuredWidth="126" measuredHeight="36" background="#000000" borderColor="#ffffff">
-    <font size="24px"/>
-  </widgets>
   <widgets xsi:type="model:Panel" id="15" x="-49" y="100" width="1104" locked="true" measuredWidth="1104" measuredHeight="100" background="#f0eeee"/>
   <widgets xsi:type="model:Breadcrumbs" id="21" x="-32" y="120" text="导航1,导航2" locked="true" measuredWidth="123" measuredHeight="33">
     <font size="18px"/>

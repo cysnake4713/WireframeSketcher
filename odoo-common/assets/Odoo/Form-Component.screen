@@ -87,6 +87,25 @@
     </widgets>
     <widgets xsi:type="model:VLine" id="38" x="136" height="57" measuredWidth="6" measuredHeight="57" foreground="#dddddd"/>
   </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="16" y="232" measuredWidth="889" measuredHeight="185" name="Field Html">
+    <widgets xsi:type="model:Label" id="40" y="14" width="145" text="Label" measuredWidth="145" measuredHeight="25">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="41" x="152" y="14" width="737" height="139" measuredWidth="737" measuredHeight="139">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="42" x="136" height="185" measuredWidth="6" measuredHeight="185" foreground="#dddddd"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="16" y="168" measuredWidth="369" measuredHeight="57" name="Text Line">
+    <widgets xsi:type="model:Label" id="50" y="14" text="Label" measuredWidth="43" measuredHeight="25">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="51" x="136" height="57" measuredWidth="6" measuredHeight="57" foreground="#dddddd"/>
+    <widgets xsi:type="model:Label" id="53" x="152" y="14" text="Label" measuredWidth="43" measuredHeight="25">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="54" x="152" y="38" width="217" measuredWidth="217" measuredHeight="6"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
