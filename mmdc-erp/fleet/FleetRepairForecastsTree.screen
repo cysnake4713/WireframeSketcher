@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" width="3224" measuredWidth="3224" measuredHeight="1256">
+    <screen xsi:type="model:Screen" href="../../odoo-common/assets/Odoo/Background.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Move" ref="15" newIndex="1"/>
+      <widgets ref="1" width="3222" height="1256"/>
+      <widgets ref="3" y="71" height="1184">
+        <attributes key="locked" value="true"/>
+      </widgets>
+      <widgets ref="2" width="3222">
+        <attributes key="locked" value="false"/>
+      </widgets>
+      <widgets ref="15" x="-256" width="3226">
+        <attributes key="locked" value="false"/>
+      </widgets>
+      <widgets ref="21" text="Repair Forecasts">
+        <items ref="@items.1" text="Repair Forecasts"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="2636" y="120" measuredWidth="567" measuredHeight="67">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Odoo/Tree-Component.screen#Search%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="206" y="199" measuredWidth="3000" measuredHeight="1044">
+    <screen xsi:type="model:WidgetGroup" href="../../odoo-common/assets/Bootstrap/Content.screen#Table%20Condensed"/>
+    <overrides>
+      <widgets ref="53" width="3000" height="1044" text="Equipment&#x9;Source JO Ref.&#x9;Generated JO&#x9;WIS&#x9;Spare Part Replacement&#x9;Part Number&#x9;Component&#x9;QTY&#x9;Service Code&#x9;Forcasted Method&#x9;Forcasted Odometer &#x9;Forcasted Accumulative Operating Hours&#x9;Forcasted Service &#x9;Scheduled Odometer&#x9;Scheduled Accumulative Operating Hours&#x9;Scheduled Service&#x9;Trigger Odometer&#x9;Trigger Operating Hours&#x9;Scheduled Date&#x9;Create DateTime&#x9;Triggering DateTime&#x9;Note&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;WIS0612&#x9;BUCKET TOOTH 775-HC&#x9;&#x9;GETS&#x9;1&#x9;Major Repair&#x9;By Odometer &#x9;63000&#x9;750&#x9;Major Repair&#x9;70000&#x9;750&#x9;Major Repair&#x9;&#x9;725&#x9;2016/3/30&#x9;&#x9;&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;WIS0612&#x9;BUCKET TOOTH PIN 775HL200PS&#x9;&#x9;GETS&#x9;1&#x9;Basic Repair&#x9;By Operating Hours&#x9;65000&#x9;2000&#x9;Basic Repair&#x9;70000&#x9;2000&#x9;Major Repair&#x9;&#x9;1953&#x9;2016/3/30&#x9;&#x9;&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;WIS0612&#x9;AIRCON BELT RECMF 8455&#x9;&#x9;BELT&#x9;1&#x9;Major Repair&#x9;By Odometer &#x9;60000&#x9;750&#x9;Major Repair&#x9;70000&#x9;&#x9;&#x9;66400&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;WIS0612&#x9;ENGINE BELT 6732-82-3680&#x9;&#x9;BELT&#x9;1&#x9;Basic Repair&#x9;By Operating Hours&#x9;70000&#x9;2000&#x9;Basic Repair&#x9;70000&#x9;&#x9;&#x9;66400&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;WIS0612&#x9;WELDING ROD MG 600&#x9;&#x9;ROD&#x9;1&#x9;Basic Repair&#x9;By Operating Hours&#x9;68000&#x9;2000&#x9;Basic Repair&#x9;70000&#x9;&#x9;&#x9;66400&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;DT-02&#x9;JO00021&#x9;JO00025&#x9;WIS0612&#x9;WASTE COTTON&#x9;&#x9;MISC&#x9;1&#x9;Basic Repair&#x9;By Odometer &#x9;60500&#x9;250&#x9;Basic Repair&#x9;70000&#x9;&#x9;&#x9;66400&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;">
+        <attributes key="rowHeight" value="40"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" y="282" measuredWidth="207" measuredHeight="857">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Base/base.screen#Menuitem"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
